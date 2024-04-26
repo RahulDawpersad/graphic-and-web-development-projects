@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Graphic Design Portfolio</title>
+<link rel="stylesheet" href="public/css/style.css">
+<script>
+  // Disable right-click context menu
+  document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+  });
+</script>
+</style>
+</head>
+<body>
+
+    <!-- Video Background -->
+    <div class="video-background">
+      <video autoplay muted loop id="video-bg">
+        <source src="public/videos/universe.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+    <div class="main-container">
+      
+  <!-- <div class="landing-wrapper">
+    <p>Feel Free To Explore My Portfolio Of Designs And Websites</p>
+    <img src="public/img/websites/SVG.gif" class="svg" alt="svg">
+  </div> -->
+
+
+<div class="category-buttons">
+  <button class="category-btn button" data-value="websites" id="btn-website">Website Templates</button>
+  <button class="category-btn button" data-value="logos" id="btn-logo">Business Logos</button>
+  <button class="category-btn button" data-value="menus" id="btn-menu">Food Menus </button>
+  <button class="category-btn button" data-value="cards" id="btn-card">Business Cards</button>
+  <button class="category-btn button" data-value="ads" id="btn-ad">Business Ads</button>
+  <!-- <button class="category-btn button" data-value="flyers">Business Flyers</button> -->
+  <button class="category-btn button" data-value="posters" id="btn-poster">Business Posters</button>
+</div>
+
+
+<!-- Project images grid -->
+<div class="gallery" id="gallery">
+  <!-- Images will be dynamically added here -->
+</div>
+
+<!-- Modal container -->
+<div id="myModal" class="modal">
+  <span id="close-modal" class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+    </div>
+<script src="public/js/script.js"></script>
+</body>
+</html>
